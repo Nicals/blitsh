@@ -25,5 +25,6 @@ setup(
     install_requires=['click'],
     extras_require={
         'tests': ['tox', 'coveralls', 'pytest', 'pytest-cov'],
+        'docs': ['sphinx'],
     },
 )
