@@ -1,4 +1,4 @@
-Blitch
+Blitsh
 ======
 
 A python 3+ webshell.

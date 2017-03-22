@@ -6,7 +6,7 @@ root_path = pathlib.Path(__file__).parent.resolve()
 
 
 setup(
-    name='blitch',
+    name='blitsh',
     version='0.dev0',
     description='A webshell',
     long_description=(root_path / 'README.rst').open().read(),
