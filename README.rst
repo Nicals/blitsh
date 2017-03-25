@@ -1,7 +1,14 @@
 Blitsh
 ======
 
-A python 3+ webshell.
+.. image:: https://travis-ci.org/Nicals/blitsh.svg?branch=master
+   :target: https://travis-ci.org/Nicals/blitsh
+
+.. image:: https://coveralls.io/repos/github/Nicals/blitsh/badge.svg?branch=master
+   :target: https://coveralls.io/github/Nicals/blitsh?branch=master
+
+
+A python 35+ webshell.
 
 This project is inspired from `Weevely <https://github.com/epinna/weevely3>`_.
 You should check it out, it really worths it as it have far much functionality than this.
