@@ -22,7 +22,7 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
         'Topic :: Security',
     ],
-    install_requires=['click'],
+    install_requires=['click', 'requests'],
     extras_require={
         'tests': ['tox', 'coveralls', 'pytest', 'pytest-cov'],
         'docs': ['sphinx'],
