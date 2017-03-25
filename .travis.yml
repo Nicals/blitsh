@@ -4,7 +4,7 @@ python:
     - "3.6"
 before_install:
     - sudo apt-get -qq update
-    - sudo apt-get install -y php7.0
+    - sudo apt-get install -y php5
 install: pip install tox-travis
 script: tox
 notification:
